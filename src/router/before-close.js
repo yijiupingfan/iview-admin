@@ -5,7 +5,6 @@ const beforeClose = {
     Modal.confirm({
       title: '确定要关闭这一页吗',
       onOk: () => {
-        console.log('lilinjie')
         resolve(true)
       },
       onCancel: () => {
