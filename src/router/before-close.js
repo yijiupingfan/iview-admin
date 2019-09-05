@@ -6,7 +6,6 @@ const beforeClose = {
       title: '确定要关闭这一页吗',
       onOk: () => {
         resolve(true)
-        alert('lilinjie')
       },
       onCancel: () => {
         resolve(false)
